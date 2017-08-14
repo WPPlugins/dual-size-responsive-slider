@@ -1,0 +1,292 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Dual Size Responsive Slider Pot v1.0.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2015-05-25 15:20+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: Online-inc <kanazawa@online-inc.jp>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin-class.php:21
+msgid "Add New Set"
+msgstr ""
+
+#: admin/admin-class.php:28 admin/admin-class.php:29
+msgid "Responsive Slider"
+msgstr ""
+
+#: admin/admin-class.php:55 admin/admin-class.php:56 admin/option-page.php:8
+msgid "Large Slider Size"
+msgstr ""
+
+#: admin/admin-class.php:55 admin/admin-class.php:57 admin/option-page.php:11
+#: admin/option-page.php:24
+msgid "width"
+msgstr ""
+
+#: admin/admin-class.php:56 admin/admin-class.php:58 admin/option-page.php:15
+#: admin/option-page.php:28
+msgid "height"
+msgstr ""
+
+#: admin/admin-class.php:57 admin/admin-class.php:58 admin/option-page.php:21
+msgid "Small Slider Size"
+msgstr ""
+
+#: admin/admin-class.php:59 admin/option-page.php:34
+msgid "Responsive Option"
+msgstr ""
+
+#: admin/admin-class.php:59 admin/option-page.php:37
+msgid "Threshold Width"
+msgstr ""
+
+#: admin/admin-class.php:60 admin/admin-class.php:61
+#: admin/admin-class.php:156 admin/option-page.php:46
+msgid "Slider Option"
+msgstr ""
+
+#: admin/admin-class.php:87
+msgid "Option is updated."
+msgstr ""
+
+#: admin/admin-class.php:101
+#, php-format
+msgid "Please enter a numeric value in %1$s for %2$s."
+msgstr ""
+
+#: admin/admin-class.php:149
+msgid "Slider Set"
+msgstr ""
+
+#: admin/admin-class.php:165
+msgid "Slide Images"
+msgstr ""
+
+#: admin/admin-class.php:195
+#, php-format
+msgid "Using shortcode %s or function %s, you can display this slider."
+msgstr ""
+
+#: admin/admin-class.php:258 admin/admin-class.php:275
+#, php-format
+msgid "Parent Attribute of Slide %1$s (post ID: %2$s) is also updated."
+msgstr ""
+
+#: admin/option-page.php:4
+#, php-format
+msgid ""
+"Using shortcode %s or function %s, you can display slider having all slides."
+msgstr ""
+
+#: admin/option-page.php:40
+msgid ""
+"If screen width is over this value, slider uses large size. If screen width "
+"is smaller than this value, diplay small size. "
+msgstr ""
+
+#: admin/option-page.php:52 admin/parent-option-meta-box.php:11
+msgid "fade"
+msgstr ""
+
+#: admin/option-page.php:53 admin/parent-option-meta-box.php:12
+msgid "slide"
+msgstr ""
+
+#: admin/option-page.php:55 admin/parent-option-meta-box.php:14
+msgid "Select your animation type, \"fade\" or \"slide\""
+msgstr ""
+
+#: admin/option-page.php:62 admin/parent-option-meta-box.php:21
+msgid "horizontal"
+msgstr ""
+
+#: admin/option-page.php:63 admin/parent-option-meta-box.php:22
+msgid "vertical"
+msgstr ""
+
+#: admin/option-page.php:65 admin/parent-option-meta-box.php:24
+msgid "Select the sliding direction, \"horizontal\" or \"vertical\""
+msgstr ""
+
+#: admin/option-page.php:72 admin/option-page.php:96
+#: admin/option-page.php:106 admin/option-page.php:116
+#: admin/parent-option-meta-box.php:31 admin/parent-option-meta-box.php:55
+#: admin/parent-option-meta-box.php:65 admin/parent-option-meta-box.php:75
+msgid "Yes"
+msgstr ""
+
+#: admin/option-page.php:73 admin/option-page.php:97
+#: admin/option-page.php:107 admin/option-page.php:117
+#: admin/parent-option-meta-box.php:32 admin/parent-option-meta-box.php:56
+#: admin/parent-option-meta-box.php:66 admin/parent-option-meta-box.php:76
+msgid "No"
+msgstr ""
+
+#: admin/option-page.php:75 admin/parent-option-meta-box.php:34
+msgid "Should the animation loop?"
+msgstr ""
+
+#: admin/option-page.php:82 admin/parent-option-meta-box.php:41
+msgid "Set the speed of the slideshow cycling, in milliseconds"
+msgstr ""
+
+#: admin/option-page.php:89 admin/parent-option-meta-box.php:48
+msgid "Set the speed of animations"
+msgstr ""
+
+#: admin/option-page.php:99 admin/parent-option-meta-box.php:58
+msgid ""
+"Pause the slideshow when hovering over slider, then resume when no longer "
+"hovering"
+msgstr ""
+
+#: admin/option-page.php:109 admin/parent-option-meta-box.php:68
+msgid "Create navigation for paging control of each slide?"
+msgstr ""
+
+#: admin/option-page.php:119 admin/parent-option-meta-box.php:78
+msgid "Create navigation for previous/next navigation?"
+msgstr ""
+
+#: admin/option-page.php:124
+msgid "Save"
+msgstr ""
+
+#: admin/parent-box.php:26 admin/parent-box.php:74
+msgid "Remove"
+msgstr ""
+
+#: admin/parent-box.php:39 admin/parent-box.php:175
+msgid "Please Add Slides from below."
+msgstr ""
+
+#: admin/parent-box.php:42
+msgid "Add Slides"
+msgstr ""
+
+#: admin/parent-box.php:68 admin/parent-box.php:88
+msgid "There is no slide which you can use for this slider."
+msgstr ""
+
+#: admin/parent-box.php:69
+msgid "Add Images to Slider"
+msgstr ""
+
+#: admin/slide-metabox.php:16
+msgid "Large Slide Image"
+msgstr ""
+
+#: admin/slide-metabox.php:17
+msgid "Small Slide Image"
+msgstr ""
+
+#: admin/slide-metabox.php:40
+msgid "Choose from Media Uploader"
+msgstr ""
+
+#: admin/slide-metabox.php:40
+msgid "Choose Image"
+msgstr ""
+
+#: admin/slide-metabox.php:41
+msgid "Unset this Image"
+msgstr ""
+
+#: admin/slide-metabox.php:43 admin/slide-metabox.php:45
+msgid "Width"
+msgstr ""
+
+#: admin/slide-metabox.php:43 admin/slide-metabox.php:45
+msgid "Height"
+msgstr ""
+
+#: admin/slide-metabox.php:51
+msgid "Slide Link"
+msgstr ""
+
+#: admin/slide-metabox.php:55
+msgid "Open Link in New Tab"
+msgstr ""
+
+#: dual-size-responsive-slider.php:76
+msgctxt "post type general name"
+msgid "Slider"
+msgstr ""
+
+#: dual-size-responsive-slider.php:77
+msgctxt "post type singular name"
+msgid "Slide"
+msgstr ""
+
+#: dual-size-responsive-slider.php:78
+msgctxt "admin menu"
+msgid "Slider"
+msgstr ""
+
+#: dual-size-responsive-slider.php:79
+msgctxt "add new on admin bar"
+msgid "Slider"
+msgstr ""
+
+#: dual-size-responsive-slider.php:80
+msgctxt "slider"
+msgid "Add New Slide"
+msgstr ""
+
+#: dual-size-responsive-slider.php:81
+msgid "Add New"
+msgstr ""
+
+#: dual-size-responsive-slider.php:82
+msgid "New Slide"
+msgstr ""
+
+#: dual-size-responsive-slider.php:83
+msgid "Edit"
+msgstr ""
+
+#: dual-size-responsive-slider.php:84
+msgid "View Slider"
+msgstr ""
+
+#: dual-size-responsive-slider.php:85
+msgid "All Slider"
+msgstr ""
+
+#: dual-size-responsive-slider.php:86
+msgid "Search Slides"
+msgstr ""
+
+#: dual-size-responsive-slider.php:87
+msgid "Parent Slider:"
+msgstr ""
+
+#: dual-size-responsive-slider.php:88
+msgid "No books found."
+msgstr ""
+
+#: dual-size-responsive-slider.php:89
+msgid "No books found in Trash."
+msgstr ""
+
+#: dual-size-responsive-slider.php:304
+msgid "There is no slide"
+msgstr ""

@@ -1,0 +1,132 @@
+
+#message a {
+	display: none;
+}
+
+#edit-slug-box {
+	padding: 0;
+}
+#edit-slug-box .information {
+	background: #fff;
+	padding: 10px;
+}
+
+.slider-edit-wrap {
+	padding: 0 15px 0 10px;
+	border: 1px solid #ccc;
+	margin-top: 12px;
+	margin-bottom: 50px;
+}
+.slider-edit {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+.slider-edit li {
+	height: 50px;
+	background-color: #fafafa;
+	padding: 10px 15px;
+	border: 1px solid #e5e5e5;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+			box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	position: relative;
+}
+.slider-edit img, .slider-edit .slide-title {
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.slider-edit .slide-controller {
+	height: 50px;
+	position: absolute;
+	top: 10px;
+	right: 15px;
+}
+.slider-edit .slide-remove-button {
+	color: #a00;
+	cursor: pointer;
+	margin-right: 15px;
+}
+.slider-edit .slide-move-button {
+	color: #0073aa;
+	cursor: pointer;
+	float: right;
+}
+.slider-edit-wrap .slider-no-slide {
+	text-align: center;
+	line-height: 62px;
+	border: 5px dotted #ccc;
+	margin: 0 0 6px 2em;
+}
+
+.add-slides li {
+	width: 30%;
+	float: left;
+	margin-right: 25px;
+}
+.add-slides .slide-select {
+	display: none;
+}
+.add-slides .slide-item img {
+	padding: 5px;
+	border: none;
+}
+.add-slides .slide-select:checked + .slide-item img {
+	padding: 0;
+	border: #00A8EF solid 5px;
+}
+.add-slides:after {  
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;  
+	visibility: hidden; 
+}
+.no-add-slide {
+	line-height: 50px;
+	padding-left: 2em;
+	border: 1px solid #e5e5e5;
+	margin-left: 5px;
+	margin-bottom: 20px;
+}
+
+.responsive-slider-option tbody {
+	vertical-align: top;
+}
+.responsive-slider-option th {
+	width: 120px;
+}
+.responsive-slider-option .unit-label {
+	padding-left: 10px;
+	vertical-align: bottom;
+}
+
+.slider-option td {
+	padding-bottom: 15px;
+}
+.slide-table th {
+	padding: 0 15px;
+}
+.slide-table td {
+	padding: 15px 0;
+	border-bottom: 1px solid #ccc;
+}
+.slide-table .set-slide-link td {
+	border: none;
+}
+.slide-table #slide_link {
+	line-height: 2;
+	width: 100%;
+	margin: 0;
+}
+.slide-table #slide_link_target {
+	margin-left: 5px;
+}
+
+@media only screen and (max-width: 400px) {
+	.responsive-slider-option.slider-option th,
+	.responsive-slider-option.slider-option td {
+		width: 100%;
+		display: block;
+		text-align: left;
+		margin-left: 15px;
+	}
+}
